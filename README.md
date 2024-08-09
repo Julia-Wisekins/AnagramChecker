@@ -13,20 +13,20 @@ An exception should be thrown if either argument is null or empty.
 An exception should be thrown if either argument contains a non-alpha character (i.e. only A to Z are
 valid, whitespace is invalid).
 Examples:
- “evil” is an anagram of “vile”.
- “cheater” is an anagram of “teacher”.
- “cheater” is an anagram of “TEACHER”.
- “vale” is not an anagram of “vile”.
- “evil” is not an anagram of “evil”.
- “real fun” is not considered an anagram of “funeral” for this implementation and would
+- “evil” is an anagram of “vile”.
+- “cheater” is an anagram of “teacher”.
+- “cheater” is an anagram of “TEACHER”.
+- “vale” is not an anagram of “vile”.
+- “evil” is not an anagram of “evil”.
+- “real fun” is not considered an anagram of “funeral” for this implementation and would
 throw an exception as one argument contains a space.
- “forty five” is not considered an anagram of “over fifty” for this implementation and would
+- “forty five” is not considered an anagram of “over fifty” for this implementation and would
 throw an exception as both arguments contain spaces.
- null as either argument throws an exception.
- “” as either argument throws an exception.
- “dollar$” as either argument throws an exception.
- “number1fan” as either argument throws an exception.
- “contains a space” as either argument throws an exception.
+- null as either argument throws an exception.
+- “” as either argument throws an exception.
+- “dollar$” as either argument throws an exception.
+- “number1fan” as either argument throws an exception.
+- “contains a space” as either argument throws an exception.
 Be prepared to discuss your implementation and choices you made.
 Send us your zipped up solution (exclude binary files, bin and obj folders).
 NOTE: We are looking for code you would be happy to submit for a code review as part of a git pull
